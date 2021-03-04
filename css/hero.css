@@ -3,8 +3,7 @@ body{
 	font-family: Chalkduster;
 	font-size: 20px;
 	line-height: 30px;
-    background-color: #E6E8E9;
-
+    background-color: #AAB9BF;
 }
 
 header{	
@@ -26,9 +25,10 @@ h1, h2{
 header h1{
 	color: #F2E1CC;
 	font-size: 4em;
+	margin-top: -15px;
 	
 }
-
+/* AVATAR STYLING */
 header img {
     border-radius: 50%;
     width: 300px;
@@ -41,7 +41,8 @@ header img {
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px 100px 50px;
+	background-color: #E6E8E9;
 
 }
 
