@@ -3,22 +3,28 @@ body{
 	font-family: Chalkduster;
 	font-size: 20px;
 	line-height: 30px;
+    background-color: #E6E8E9;
 
 }
 
-header{
-	background-color: #96E4E9;
+header{	
+    background-image: url(../img/gloomy-trees2.jpeg);
+	background-color: #275767;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	border-bottom: 4px solid;
+	border-color: white;
 }
 
 h1, h2{
 	font-family: 'Creepster', cursive;
 }
-	
+
+/* header styles */
+
 header h1{
-	color: white;
+	color: #F2E1CC;
 	font-size: 4em;
 	
 }
@@ -30,10 +36,13 @@ header img {
     border: 6px solid #ffff;
 }
 
+/* Main page styles */
+
 main{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
+
 }
 
 main img{
@@ -55,22 +64,29 @@ a:hover{
 
 }
 
+/* footer styles*/
+
 footer{
-	background-color: #96E4E9;
+	background-image: url(../img/gloomy-trees2.jpeg);
 	text-align: left;
 	padding: 50px;
 }
 
+
 footer p{
 	margin: 0;
+	color: #F7DFC7;
 }
 
 footer a{
-	color: #0A222E;
+	color: #F7DFC7;
+}
 footer a:hover{
-	opacity: .8;
+	color: black;
 	background-color: transparent;
 }
+
+/* image caption */
 
 p.caption{
 	color: #999999;
